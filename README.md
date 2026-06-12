@@ -1,4 +1,4 @@
-<img align="left" style="width:256px" src="https://github.com/heisenbug08/snake-game/blob/main/icon32x32.png" width="256px">
+<img align="left" style="width:16px" src="https://github.com/heisenbug08/snake-game/blob/main/icon32x32.png" width="16px">
 
 # Snake Game
 
