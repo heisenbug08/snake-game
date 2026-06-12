@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Categories=Games
+Name=Snake (Raylib)
+Exec=${BINDIR}/${TARGET_NAME}
+Icon=${TARGET_NAME}
