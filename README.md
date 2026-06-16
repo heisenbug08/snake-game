@@ -4,4 +4,10 @@
 
 Simple snake game made with [Raylib](https://github.com/raysan5/raylib)
 
-Install using `make install`
+### Build Instructions
+```bash
+git clone --depth=1 https://github.com/heisenbug08/snake-game.git
+cd snake-game
+cmake -B build
+./build/snakeR
+```
