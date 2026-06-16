@@ -9,5 +9,7 @@ Simple snake game made with [Raylib](https://github.com/raysan5/raylib)
 git clone --depth=1 https://github.com/heisenbug08/snake-game.git
 cd snake-game
 cmake -B build
+
+# Run
 ./build/snakeR
 ```
