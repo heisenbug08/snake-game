@@ -7,7 +7,7 @@ project(snakeR C)
 # Source files
 file(GLOB SRCS "${CMAKE_SOURCE_DIR}/src/*.c")
 
-add_executable(snakeR ${SRCS})
+add_executable(snakeR WIN32 ${SRCS})
 
 # Include directories
 target_include_directories(snakeR PRIVATE
@@ -22,7 +22,6 @@ if(WIN32)
 	target_link_libraries(snakeR PRIVATE
 		raylib
 		m
-		gdi32
 		winmm
 	)
 elseif(UNIX AND NOT APPLE)
@@ -36,7 +35,3 @@ elseif(UNIX AND NOT APPLE)
 		X11
 	)
 endif()
-
-set_target_properties(snakeR PROPERTIES
-	RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}"
-)
