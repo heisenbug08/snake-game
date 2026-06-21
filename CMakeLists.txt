@@ -20,7 +20,7 @@ if(WIN32)
 	target_link_directories(snake PRIVATE
 		"${CMAKE_SOURCE_DIR}/raylib-6.0/lib/win64_mingw-w64"
 	)
-	target_link_libraries(snake PRIVATE	raylib m winmm)
+	target_link_libraries(snake PRIVATE	raylib m winmm gdi32)
 elseif(UNIX AND NOT APPLE)
 	target_link_directories(snake PRIVATE
 		"${CMAKE_SOURCE_DIR}/raylib-6.0/lib/linux_amd64"
